@@ -50,9 +50,9 @@ public class FinalProject extends JLayeredPane implements ActionListener{
 			buttonsWhite.add(i);
 		}
 
-		for (int i = 0; i < 21; i++) {
+		for (int i = 0; i < 21; i++) { //initialize buttons for the keyboard
 			JButton button = new JButton();
-            int whiteKeyInt = i;
+            		int whiteKeyInt = i;
 
 			button.addActionListener(new ActionListener( ) {
 				@Override
@@ -163,7 +163,7 @@ public class FinalProject extends JLayeredPane implements ActionListener{
 			add(button, 1, -1);
 		}
 		
-        JButton inst1 = new JButton("Grand Piano");
+        JButton inst1 = new JButton("Grand Piano"); 
         JButton inst2 = new JButton("Elec. Piano");
         JButton inst3 = new JButton("Acou. Guitar");
         JButton inst4 = new JButton("Organ");
